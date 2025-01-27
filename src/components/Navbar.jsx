@@ -14,7 +14,7 @@ const Navbar = () => {
             alt="DevFlow Logo"
           />
           <div className="logo-text">
-            <span>Trinco</span>
+            <span>Kelani</span>
             <span className="highlight">Edu</span>
           </div>
         </Menu.Item>
