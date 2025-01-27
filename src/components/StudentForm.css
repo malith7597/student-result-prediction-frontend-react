@@ -1,0 +1,28 @@
+.student-form-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.ui.tabular.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.ui.tabular.menu .item {
+  font-weight: bold;
+  color: #3c4e69;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+.ui.tabular.menu .item.active {
+  border-color: #2185d0 !important;
+  background-color: #e0eaff;
+  color: #2185d0 !important;
+}
+
+.segment {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

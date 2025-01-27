@@ -1,0 +1,59 @@
+/* Styling for the Navbar */
+
+.custom-navbar {
+  background-color: var(--light900);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: 50;
+}
+
+.custom-navbar.dark {
+  background-color: var(--dark200);
+  box-shadow: none;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--dark100);
+}
+
+.logo-text .highlight {
+  color: var(--primary500);
+}
+
+.global-search {
+  margin: auto;
+  font-size: 1rem;
+  color: var(--dark100);
+}
+
+.flex-content {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.theme-toggle {
+  color: var(--dark100);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    display: none;
+  }
+
+  .global-search {
+    display: none;
+  }
+}
+
+:root {
+  --light900: #f9f9f9;
+  --dark200: #222;
+  --dark100: #000;
+  --primary500: #5f9;
+}
